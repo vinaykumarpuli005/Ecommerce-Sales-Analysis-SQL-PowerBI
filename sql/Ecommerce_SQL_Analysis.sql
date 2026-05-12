@@ -55,6 +55,11 @@ SELECT
 INTO dbo.online_retail_clean
 FROM dbo.online_retail_staging;
 
+WHERE TRY_CONVERT(INT, Quantity) > 0
+  AND TRY_CONVERT(DECIMAL(10,2), UnitPrice) > 0
+  AND NULLIF(CustomerID, '') IS NOT NULL
+  AND TRY_CONVERT(DATETIME, InvoiceDate) IS NOT NULL;
+
 --Remove Invalid Records
 SELECT *
 FROM dbo.online_retail_clean
