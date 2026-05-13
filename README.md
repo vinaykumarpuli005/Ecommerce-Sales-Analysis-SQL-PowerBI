@@ -44,10 +44,10 @@ The raw dataset is not uploaded because of file size and dataset ownership.
 
 | Metric | Result |
 |---|---:|
-| Total Revenue | 3.88M |
-| Total Orders | 8K |
-| Total Customers | 3K |
-| Average Order Value | 486.81 |
+| Total Revenue | 8.91M |
+| Total Orders | 19K |
+| Total Customers | 4K |
+| Average Order Value | 480.87 |
 | Top Revenue Country | United Kingdom |
 | Top Product | PAPER CRAFT, LITTLE BIRDIE |
 
